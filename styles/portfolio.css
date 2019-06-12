@@ -3,4 +3,20 @@
 @import url("header/header__contacts.css");
 @import url("header/header__img.css");
 
+@import url("main/main.css");
+
+@import url("photo/photo.css");
+@import url("photo/photo__img.css");
+
+
+@import url("me/me.css");
+@import url("me/me__name.css");
+@import url("me/me__text.css");
+@import url("me/me__button.css");
+
+@import url("cost/cost.css");
+@import url("cost/cost__notice.css");
+@import url("cost/cost__text.css");
+
+
 @import url("body/body.css");

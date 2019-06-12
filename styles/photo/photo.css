@@ -1,0 +1,7 @@
+.photo {
+	margin-top: 60px;
+	background-image: url("../../img/ellipse.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	text-align: center;
+}

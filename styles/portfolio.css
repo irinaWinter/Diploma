@@ -10,6 +10,7 @@
 
 
 @import url("me/me.css");
+@import url("me/img.css");
 @import url("me/me__name.css");
 @import url("me/me__text.css");
 @import url("me/me__button.css");
@@ -18,5 +19,19 @@
 @import url("cost/cost__notice.css");
 @import url("cost/cost__text.css");
 
+@import url("portfolio/portfolio.css");
+
+
+@import url("projects/projects.css");
+@import url("projects/projects__item.css");
+@import url("projects/projects__name.css");
+
+
+@import url("dots/dots.css");
+@import url("dots/dots__item.css");
+
+
+@import url("copyright/copyright.css");
+@import url("copyright/copyright__text.css");
 
 @import url("body/body.css");

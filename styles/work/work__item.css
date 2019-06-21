@@ -1,6 +1,6 @@
-.projects {
+.work__item {
+	margin-top: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-top: 45px;
 }

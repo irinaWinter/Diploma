@@ -5,21 +5,30 @@
 
 @import url("main/main.css");
 
-@import url("photo/photo.css");
-@import url("photo/photo__img.css");
-
+@import url("common/heading.css");
+@import url("common/text.css");
+@import url("common/button.css");
+@import url("common/button_work.css");
+@import url("common/button_portfolio.css");
 
 @import url("me/me.css");
-@import url("me/img.css");
-@import url("me/me__name.css");
-@import url("me/me__text.css");
-@import url("me/me__button.css");
+@import url("me/me__photo.css");
 
-@import url("cost/cost.css");
-@import url("cost/cost__notice.css");
-@import url("cost/cost__text.css");
+@import url("work/work.css");
+@import url("work/work__item.css");
+@import url("work/work__img.css");
+
+
+
+
+@import url("price/price.css");
+@import url("price/price__notice.css");
+@import url("price/price__text.css");
 
 @import url("portfolio/portfolio.css");
+@import url("portfolio/portfolio__img.css");
+@import url("portfolio/portfolio__item.css");
+@import url("portfolio/portfolio__text.css");
 
 
 @import url("projects/projects.css");

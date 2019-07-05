@@ -11,7 +11,6 @@ function showHideMenu() {
 	menu.classList.toggle('close');
 	main.classList.toggle('close');
 	footer.forEach(function(element) {
-		console.log(element);
 		element.classList.toggle('close');
 	});
 };

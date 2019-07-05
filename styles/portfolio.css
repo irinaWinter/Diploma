@@ -3,13 +3,16 @@
 @import url("header/header__contacts.css");
 @import url("header/header__img.css");
 
+@import url("menu/menu.css");
+@import url("menu/menu__a.css");
+@import url("menu/menu__li.css");
+@import url("menu/menu__nav.css");
+@import url("menu/menu__ul.css");
+
+
 @import url("main/main.css");
 
-@import url("common/heading.css");
-@import url("common/text.css");
-@import url("common/button.css");
-@import url("common/button_work.css");
-@import url("common/button_portfolio.css");
+
 
 @import url("me/me.css");
 @import url("me/me__photo.css");
@@ -54,3 +57,11 @@
 @import url("copyright/copyright__text.css");
 
 @import url("body/body.css");
+
+@import url("common/heading.css");
+@import url("common/text.css");
+@import url("common/button.css");
+@import url("common/button_work.css");
+@import url("common/button_portfolio.css");
+@import url("common/open.css");
+@import url("common/close.css");

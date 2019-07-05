@@ -1,0 +1,9 @@
+.footer__li {
+	margin-top: 15px;
+	font-size: 15px;
+	color:  #8993ad;
+}
+
+.footer__li:first-child {
+	margin-top: 0;
+}

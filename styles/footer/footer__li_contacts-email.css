@@ -1,0 +1,7 @@
+.footer__li_contacts-email {
+	padding-left: 30px;
+	background-image: url("../../img/email.png");
+	background-size: 14px 10px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}

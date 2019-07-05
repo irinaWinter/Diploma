@@ -39,6 +39,16 @@
 @import url("dots/dots.css");
 @import url("dots/dots__item.css");
 
+@import url("footer/footer.css");
+@import url("footer/footer__nav.css");
+@import url("footer/footer__ul.css");
+@import url("footer/footer__li.css");
+@import url("footer/footer__li_sn.css");
+@import url("footer/footer__li_contacts.css");
+@import url("footer/footer__li_contacts-number.css");
+@import url("footer/footer__li_contacts-email.css");
+@import url("footer/footer__a.css");
+
 
 @import url("copyright/copyright.css");
 @import url("copyright/copyright__text.css");

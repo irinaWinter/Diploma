@@ -1,8 +1,9 @@
 .me__photo {
 	width: 100%;
-	margin-top: 60px;
+	margin-top: 140px;
 	background-image: url("../../img/ellipse.png");
 	background-position: center top;
 	background-repeat: no-repeat;
+	background-size: 150%;
 	text-align: center;
 }

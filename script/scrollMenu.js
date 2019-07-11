@@ -10,8 +10,7 @@ function getScroll() {
 window.onscroll = function() {
 	var header = document.querySelector('.header');
 	var innerHeight = document.documentElement.clientHeight;
-	var getLastScroll = getScroll();
-	var lastScroll = getLastScroll();
+	var lastScroll = getScroll()();
 	currentScroll = window.pageYOffset || document.documentElement.scrollBottom;
 
 	if (currentScroll > innerHeight && currentScroll < lastScroll) {

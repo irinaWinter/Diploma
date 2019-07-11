@@ -1,14 +1,22 @@
+var currentScroll = 0;
+
+function getScroll() {	
+	var scroll = 0;
+	return function() {
+		return scroll = currentScroll;
+	}
+}
+
 window.onscroll = function() {
 	var header = document.querySelector('.header');
-	var pageY = window.pageYOffset || document.documentElement.scrollBottom;
-	var currentScroll = 0;
 	var innerHeight = document.documentElement.clientHeight;
+	var getLastScroll = getScroll();
+	var lastScroll = getLastScroll();
+	currentScroll = window.pageYOffset || document.documentElement.scrollBottom;
 
-	if (pageY > innerHeight && pageY > currentScroll) {
+	if (currentScroll > innerHeight && currentScroll < lastScroll) {
 		header.classList.add('header_fixed');
 	} else {
 		header.classList.remove('header_fixed')
 	}
-	console.log(pageY);
-	console.log(currentScroll);
 }

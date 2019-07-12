@@ -11,4 +11,5 @@
 
 .header_fixed {
 	position: fixed;
+	top: 0;
 }

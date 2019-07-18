@@ -16,6 +16,7 @@
 
 @import url("me/me.css");
 @import url("me/me__photo.css");
+@import url("common/photo__bg.css");
 
 @import url("work/work.css");
 @import url("work/work__item.css");

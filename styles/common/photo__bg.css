@@ -1,0 +1,17 @@
+.photo_bg {
+	/*width: 100%;*/
+	position: relative;
+	z-index: -1;
+
+
+}
+.photo__path {
+	/*fill: linear-gradient(45deg, #ff8f5a, #ff2f96);*/
+	fill: #ff8f5a;
+	z-index: -1;
+}
+
+.me__img {
+	position: relative;
+	z-index: 1;
+}

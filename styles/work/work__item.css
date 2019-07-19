@@ -1,6 +1,8 @@
 .work__item {
+	width: 100%;
 	margin-top: 50px;
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
-	justify-content: center;
+	align-items: center;
 }

@@ -16,3 +16,6 @@
 .button:hover {
 	background-color: #ff3095;
 }
+.button:visited {
+	background-color: #ff4e2e;
+}

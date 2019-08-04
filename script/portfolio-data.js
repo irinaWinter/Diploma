@@ -1,8 +1,11 @@
 var portfolio_data = [
-	{ title: "Сайт магазина детской одежды",
+	{ img: "portfolio1",
+	  title: "Сайт магазина детской одежды",
 	  preview: "portfolio1" },
-	{ title: "Сайт психолога Веры Антоновой",
+	{ img: "portfolio2",
+	  title: "Сайт психолога Веры Антоновой",
 	  preview: "portfolio2" },
-	{ title: "Сайт магазина \"Рыболов\"",
+	{ img: "portfolio3",
+	  title: "Сайт магазина \"Рыболов\"",
 	  preview: "portfolio3" }	  
-]
+] 

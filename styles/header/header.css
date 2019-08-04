@@ -2,7 +2,6 @@
 	width: 100%;
 	box-sizing: border-box;
 	padding: 30px 20px;
-	background-color: #fff;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -12,4 +11,10 @@
 .header_fixed {
 	position: fixed;
 	top: 0;
+}
+
+@media screen and (min-width: 1024px) {
+	.header {
+		padding: 30px 40px;
+	}	
 }

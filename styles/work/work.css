@@ -5,3 +5,9 @@
 	padding: 0 15px;
 	margin-top: 30px;
 }
+
+@media screen and (min-width: 1024px) {
+	.work {
+		width: 100%;
+	}
+}

@@ -2,6 +2,9 @@
 @import url("header/header.css");
 @import url("header/header__contacts.css");
 @import url("header/header__img.css");
+@import url("header/header__textButton.css");
+@import url("header/header__button.css");
+
 
 @import url("menu/menu.css");
 @import url("menu/menu__a.css");

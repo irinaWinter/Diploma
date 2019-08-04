@@ -16,3 +16,12 @@
 	position: relative;
 	z-index: 1;
 }
+
+@media screen and (min-width: 1024px) {
+	.photo {
+		width: 500px;
+	}
+	.photo__img {
+		width: 400px;
+	}
+}

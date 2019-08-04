@@ -10,6 +10,7 @@
 	<script src="script/scrollMenu.js" defer></script>
 	<script src="script/copyright__year.js" defer></script>
 	<script src="script/portfolio-data.js" defer></script>
+	<script src="script/portfolio__item.js" defer></script>
 </head>
 
 <body class="body">
@@ -21,7 +22,7 @@
 			<span class="Hamburger__line"></span>
 		</div>
 		<a class="header__contacts" href="tel: 89959906414">+ 7 (995) 990-64-14</a>
-		<a href="tel: 89959906414"><img class="header__img" src="img/call-answer.png"></a>
+		<a class="header__button" href="tel: 89959906414"><img class="header__img" src="img/call-answer.png"><span class="header__textButton">Заказать звонок</span></a>
 
 		<div class="menu close">
 			<nav class="menu__nav">
@@ -38,17 +39,17 @@
 	<main class="main">
 
 	<!-- Me -->
-		
+			<div class="background">
+				<svg class="background__svg" viewBox="20 -20 370 290" preserveAspectRatio="xMidYMid none">
+					<linearGradient id="linear-gradient">
+    					<stop offset="0%" stop-color="#ff8f5a"/>
+   						<stop offset="100%" stop-color="#ff2f96"/>
+					</linearGradient>
+					<path fill="url(#linear-gradient)" class="background__path" d="M201.92,21.253C256.483-4.54,307.974-4.62,351.023,14.742c43.16,19.2,77.879,57.851,101.462,105.879,22.629,48.505,22.6,100.605,4.124,142.751-18.738,42.774-49.924,75.022-92.422,98.037-22.506,11.589-46.164,19.528-76.239,24.4-29.678,4.8-65.775,6.538-104.018,4.061-75.9-4.765-160.953-27.136-178.891-77.6-10.165-25.056-3.784-53.778,8.854-82.683,12.846-28.946,31.949-58.075,52.006-84.919,20.265-26.886,41.483-51.487,63.328-72.351,22.052-20.906,44.731-38.074,72.693-51.069h0Z"/>
+				</svg>	
+			</div>
+
 			<div class="photo">
-				<div class="background">
-					<svg class="background__svg" viewBox="20 -20 370 290" preserveAspectRatio="xMidYMid none">
-						<linearGradient id="linear-gradient">
-    						<stop offset="0%" stop-color="#ff8f5a"/>
-   							<stop offset="100%" stop-color="#ff2f96"/>
-						</linearGradient>
-						<path fill="url(#linear-gradient)" class="background__path" d="M201.92,21.253C256.483-4.54,307.974-4.62,351.023,14.742c43.16,19.2,77.879,57.851,101.462,105.879,22.629,48.505,22.6,100.605,4.124,142.751-18.738,42.774-49.924,75.022-92.422,98.037-22.506,11.589-46.164,19.528-76.239,24.4-29.678,4.8-65.775,6.538-104.018,4.061-75.9-4.765-160.953-27.136-178.891-77.6-10.165-25.056-3.784-53.778,8.854-82.683,12.846-28.946,31.949-58.075,52.006-84.919,20.265-26.886,41.483-51.487,63.328-72.351,22.052-20.906,44.731-38.074,72.693-51.069h0Z"/>
-					</svg>	
-				</div>	
 				<img src="img/man.png" class="photo__img">
 			</div>
 
@@ -91,8 +92,16 @@
 
 			<div class="portfolio__item">
 				<img class="portfolio__img" src="img/portfolio1.jpg">
-				<h3 class="portfolio__text">Сайт магазина детской одежды</h3>
+				<h3 class="portfolio__text">Сайт психолога Веры Антоновой</h3>
 			</div>	
+			<div class="portfolio__item hide">
+				<img class="portfolio__img" src="img/portfolio2.jpg">
+				<h3 class="portfolio__text">Сайт магазина детской одежды</h3>
+			</div>
+			<div class="portfolio__item hide">
+				<img class="portfolio__img" src="img/portfolio3.jpg">
+				<h3 class="portfolio__text">Сайт магазина "Рыболов"</h3>
+			</div>
 
 			<div class="dots">
 				<span class="dots__item dots__item_active"></span>

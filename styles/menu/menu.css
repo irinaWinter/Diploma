@@ -3,3 +3,10 @@
 	display: flex;
 	flex-wrap: wrap;
 }
+
+@media screen and (min-width: 1200px) {
+	.menu {
+		width: auto;
+		order: -1;
+	}	
+}

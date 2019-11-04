@@ -1,7 +1,7 @@
 .header__textButton {
 	display: none;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 836px) {
 	.header__textButton {
 		display: inline-block;
 	}

@@ -2,8 +2,8 @@
 	position: relative;
 	display: inline-block;
 	cursor: pointer;
-	width: 24px;
-	height: 18px;
+	width: 20px;
+	height: 16px;
 	box-sizing: border-box;
 }
 .Hamburger__line {
@@ -29,8 +29,8 @@
 
 /* Rotate first bar */
 .change .Hamburger__line:first-child {
-	-webkit-transform: rotate(-45deg) translate(-4px, 6px);
-	transform: rotate(-45deg) translate(-4px, 6px);
+	-webkit-transform: rotate(-45deg) translate(-5px, 6px);
+	transform: rotate(-45deg) translate(-5px, 6px);
 }
 
 /* Fade out the second bar */
@@ -40,14 +40,14 @@
 
 /* Rotate last bar */
 .change .Hamburger__line:last-child {
-	-webkit-transform: rotate(45deg) translate(-5px, -8px);
-	transform: rotate(45deg) translate(-5px, -8px);
+	-webkit-transform: rotate(45deg) translate(-4px, -5px);
+	transform: rotate(45deg) translate(-4px, -5px);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 836px) {
 	.Hamburger {
-		width: 45px;
-		height: 32px;
+		width: 40px;
+		height: 30px;
 	}
 	.Hamburger__line {
 		height: 5px;
@@ -58,13 +58,19 @@
 
 	/* Rotate first bar */
 	.change .Hamburger__line:first-child {
-		-webkit-transform: rotate(-45deg) translate(-10px, 10px);
-		transform: rotate(-45deg) translate(-10px, 10px);
+		-webkit-transform: rotate(-45deg) translate(-9px, 9px);
+		transform: rotate(-45deg) translate(-9px, 9px);
 	}
 
 	/* Rotate last bar */
 	.change .Hamburger__line:last-child {
-		-webkit-transform: rotate(45deg) translate(-10px, -10px);
-		transform: rotate(45deg) translate(-10px, -10px);
+		-webkit-transform: rotate(45deg) translate(-9px, -9px);
+		transform: rotate(45deg) translate(-9px, -9px);
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.Hamburger {
+		display: none;
 	}
 }

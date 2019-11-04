@@ -2,3 +2,14 @@
 	text-decoration: none;
 	color: #8993ad;
 }
+
+.menu__a:hover {
+	color: #fc557c;
+}
+
+@media screen and (min-width: 1200px) {
+	.menu__a {
+		color: #1f1f24;
+		font-size: 13px;
+	}	
+}

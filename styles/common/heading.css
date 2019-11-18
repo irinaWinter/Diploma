@@ -11,7 +11,8 @@
 
 @media screen and (min-width: 1024px) {
 	.heading {
-		font-size: 54px;
+		margin: 0;
+		font-size: 55px;
 		text-align: left;
 	}
 }

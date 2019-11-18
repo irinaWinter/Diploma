@@ -2,8 +2,8 @@
 	position: relative;
 	display: inline-block;
 	cursor: pointer;
-	width: 20px;
-	height: 16px;
+	width: 25px;
+	height: 17px;
 	box-sizing: border-box;
 }
 .Hamburger__line {
@@ -29,8 +29,8 @@
 
 /* Rotate first bar */
 .change .Hamburger__line:first-child {
-	-webkit-transform: rotate(-45deg) translate(-5px, 6px);
-	transform: rotate(-45deg) translate(-5px, 6px);
+	-webkit-transform: rotate(-45deg) translate(-5px, 5px);
+	transform: rotate(-45deg) translate(-5px, 5px);
 }
 
 /* Fade out the second bar */
@@ -40,13 +40,13 @@
 
 /* Rotate last bar */
 .change .Hamburger__line:last-child {
-	-webkit-transform: rotate(45deg) translate(-4px, -5px);
-	transform: rotate(45deg) translate(-4px, -5px);
+	-webkit-transform: rotate(45deg) translate(-5px, -5px);
+	transform: rotate(45deg) translate(-5px, -5px);
 }
 
-@media screen and (min-width: 836px) {
+@media screen and (min-width: 1024px) {
 	.Hamburger {
-		width: 40px;
+		width: 45px;
 		height: 30px;
 	}
 	.Hamburger__line {

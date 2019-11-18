@@ -2,7 +2,7 @@
 	background-color: #fbfbfb;
 	width: 100%;
 	box-sizing: border-box;
-	padding: 21px 18px;
+	padding: 25px 19px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -14,15 +14,15 @@
 	top: 0;
 }
 
-@media screen and (min-width: 836px) {
+@media screen and (min-width: 1024px) {
 	.header {
-		padding: 27px 35px;
+		padding: 30px 40px;
 	}	
 
 @media screen and (min-width: 1200px) {
 	.header {
-		width: 940px;
+		width: 1152px;
 		margin: 0 auto;
-		padding: 20px 0;
+		padding: 29px 0;
 	}	
 }

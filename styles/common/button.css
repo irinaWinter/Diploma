@@ -19,3 +19,12 @@
 .button:visited {
 	background-color: #ff4e2e;
 }
+
+@media screen and (min-width: 1024px) {
+	.button {
+		margin-top: 48px;
+		height: 68px;
+		font-size: 18px;
+		letter-spacing: -0.14px;		
+	}
+}

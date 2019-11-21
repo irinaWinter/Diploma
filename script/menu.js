@@ -27,7 +27,7 @@ window.onresize = function() {
 	var burger = document.querySelector('.Hamburger');
 	var menu = document.querySelector('.menu');
 	var menu__li = document.querySelectorAll('.menu__li');
-	if (document.documentElement.clientWidth >= 1200) {
+	if (document.documentElement.clientWidth >= 1183) {
 		burger.classList.add('close');
 		menu.classList.remove('close');
 	} else {

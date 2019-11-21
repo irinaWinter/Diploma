@@ -1,0 +1,12 @@
+@media screen and (min-width: 1024px) {
+	.heading-me {
+		padding-top: 205px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.heading-me {
+		padding-top: 186px;
+		font-size: 79px;
+	}
+}

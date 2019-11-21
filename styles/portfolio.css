@@ -21,7 +21,6 @@
 
 
 @import url("me/me.css");
-@import url("me/me__photo.css");
 @import url("common/photo__bg.css");
 
 @import url("work/work.css");
@@ -66,6 +65,7 @@
 @import url("body/body.css");
 
 @import url("common/heading.css");
+@import url("common/heading-me.css");
 @import url("common/text.css");
 @import url("common/button.css");
 @import url("common/button_work.css");

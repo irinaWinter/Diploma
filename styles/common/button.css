@@ -3,7 +3,7 @@
 	justify-content: center;
 	align-items: center;
 	margin-top: 30px;
-	width: 320px;
+	width: 300px;
 	height: 55px;
 	background-color: #ff4e2e;
 	border: none;
@@ -24,7 +24,17 @@
 	.button {
 		margin-top: 48px;
 		height: 68px;
+		width: 321px;
 		font-size: 18px;
 		letter-spacing: -0.14px;		
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.button {
+		margin-top: 48px;
+		height: 60px;
+		width: 268px;
+		
 	}
 }

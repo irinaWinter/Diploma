@@ -1,12 +1,11 @@
 .me {
+	position: relative;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	/*padding: 0 20px;*/
-	/*margin-top: 50px;*/
-
+	overflow: hidden;
 }
 
 .me::before {
@@ -14,7 +13,7 @@
 	display: block;
 	position: absolute;
 	left: 15%;
-	top: 10.7%;
+	top: 3.9%;
 	width: 83px;
 	height: 24px;
 	background-image: url(../../img/3.png);
@@ -27,8 +26,8 @@
 	display: block;
 	position: absolute;
 	transform: rotate(-12deg);
-	right: 20%;
-	top: 8.15%;
+	right: 20.7%;
+	top: -0.4%;
 	width: 83px;
 	height: 16px;
 	background-image: url(../../img/4.png);
@@ -52,12 +51,12 @@
 		padding: 0 0 0 40px;
 	}
 	.me::before {
-		top: 16.7%;
+		top: 7.7%;
 		left: 7.5%;
 		height: 50px;
 	}
 	.me::after {
-		top: 25.75%;
+		top: 20.7%;
 		right: 50.6%;
 		height: 40px;
 		transform: rotate(36deg);

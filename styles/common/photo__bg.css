@@ -1,26 +1,21 @@
 .photo {
-	/*margin-right: -38px;*/
-	/*margin-top: 3px;*/
 	padding-top: 54px;
 	text-align: center;
 	width: 100%;
-	background-image: url("../../img/Ellipse.png");
-	background-repeat: no-repeat;
-	background-size: 470px 391px;
-	background-position: 40% 93px;
 }
 .photo::before {
 	content: "";
 	display: block;
 	position: absolute;
-	right: -2.5%;
-	top: 15.4%;
-	width: 83px;
-	height: 16px;
-	background-image: url(../../img/1div.png);
-	background-size: contain;
+	z-index: -1;
+	top: -3px;
+	width: 100%;
+	height: 391px;
+	background-image: url("../../img/Ellipse.png");
 	background-repeat: no-repeat;
-	transition: all 0.5s;
+	background-size: 470px 391px;
+	background-position-y: 96px;
+	background-position-x: 39%;
 }
 .photo::after {
 	content: "";
@@ -51,30 +46,41 @@
 		background-size: 920px 630px;
 		background-position: 0% 135px;
 	}
-
 	.photo::before {
-		top: 15.3%;
-		right: 5.3%;
-		height: 30px;
-		transform: rotate(-35deg);
+		top: -2px;
+		height: 663px;
+		background-size: 920px 630px;
+		background-position-y: 137px;
+		background-position-x: 0%;
 	}
-
 	.photo::after {
 		top: 67.1%;
 		left: 5.7%;
 		height: 43px;
 	}
-
 	.photo__img {
 		width: 428px;	
 		margin-top: 25px;
+		margin-bottom: 1px;
+		margin-left: 76px;
 		padding-right: 43px;
 	}
 }
 
 @media screen and (min-width: 1200px) {
+	.photo {
+		width: auto;
+		padding-top: 0;
+		padding-left: 20px;
+		float: right;
+		background-size: 920px 760px;
+		background-position: 0% 135px;
+	}
 	.photo__img {
 		margin-top: 28px;
-		margin-right: -95px;
+		margin-right: -137px;
+	}
+	.photo::after {
+		display: none;
 	}
 }

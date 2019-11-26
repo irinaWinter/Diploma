@@ -67,7 +67,24 @@
 	.me {
 		width: 1152px;
 		margin: 0 auto;
-		padding: 0;
+		padding: 0 0 237px 0;
+		position: static;
+	}
+	.me::before {
+		top: 1.4%;
+		left: 6.7%;
+	}
+	.me::after {
+		background-image: url(../../img/1div.png);
+		transform: rotate(0deg);
+		
+	}
+}
 
+@media screen and (min-width: 1440px) {
+	.me::after {
+		top: 17.7%;
+		right: 45.5%;
+		transform: rotate(0deg);
 	}
 }

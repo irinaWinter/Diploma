@@ -1,5 +1,4 @@
 .heading {
-	/*width: 100%;*/
 	font-weight: 900;
 	margin: 14px 0 0 0;
 	font-size: 30px;
@@ -11,8 +10,9 @@
 
 @media screen and (min-width: 1024px) {
 	.heading {
-		margin: 0;
-		font-size: 55px;
-		text-align: left;
+		width: 100%;
+		margin: 53px 0 0 0;
+		font-size: 52px;
+		text-align: center;
 	}
 }

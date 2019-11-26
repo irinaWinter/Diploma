@@ -9,5 +9,6 @@
 @media screen and (min-width: 1024px) {
 	.work {
 		width: 100%;
+		justify-content: space-between;
 	}
 }

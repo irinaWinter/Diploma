@@ -1,8 +1,18 @@
 .work__item {
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 47px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	align-items: center;
+}
+
+.work__item:first-child {
+	margin-top: 44px;
+}
+
+@media screen and (min-width: 1024px) {
+	.work__item {
+		max-width: 270px;
+	}
 }

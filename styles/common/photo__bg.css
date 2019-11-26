@@ -41,7 +41,7 @@
 	.photo {
 		width: auto;
 		padding-top: 0;
-		padding-left: 20px;
+		padding-left: 0px;
 		float: right;
 		background-size: 920px 630px;
 		background-position: 0% 135px;
@@ -54,7 +54,7 @@
 		background-position-x: 0%;
 	}
 	.photo::after {
-		top: 67.1%;
+		top: 79.7%;
 		left: 5.7%;
 		height: 43px;
 	}
@@ -73,14 +73,29 @@
 		padding-top: 0;
 		padding-left: 20px;
 		float: right;
-		background-size: 920px 760px;
+		/*background-size: 920px 760px;*/
 		background-position: 0% 135px;
 	}
+	.photo::before {
+		margin-left: -420px;
+		top: 1px;
+		height: 663px;
+		background-size: 920px 760px;
+		background-position-y: 33px;
+		background-position-x: 0%;
+	}
 	.photo__img {
+		position: absolute;
+		right: 12.54%;
 		margin-top: 28px;
-		margin-right: -137px;
 	}
 	.photo::after {
-		display: none;
+		top: 10.9%;
+		left: 1.9%;
+	}
+}
+@media screen and (min-width: 1740px) {
+	.photo::after {
+		left: 12.9%;
 	}
 }

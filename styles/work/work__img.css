@@ -1,3 +1,5 @@
-.work__img {
-	
+@media screen and (min-width: 1024px) {
+	.work__img {
+		height: 74px;	
+	}
 }

@@ -1,0 +1,9 @@
+@media screen and (min-width: 1200px) {
+	.container {
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		align-items: baseline;
+	}
+}

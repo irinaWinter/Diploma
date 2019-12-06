@@ -1,4 +1,10 @@
 .price {
-	padding: 50px 20px;
+	padding: 43px 20px;
 	background-image: linear-gradient(#ff3294, #ff895e);
+}
+
+@media screen and (min-width: 1024px) {
+	.price {
+		padding: 75px 40px 80px;
+	}
 }

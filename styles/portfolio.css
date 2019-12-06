@@ -27,6 +27,18 @@
 @import url("work/work__item.css");
 @import url("work/work__img.css");
 
+@import url("projects/projects.css");
+
+@import url("gallery/gallery.css");
+@import url("gallery/gallery__arrow.css");
+@import url("gallery/gallery__arrow_left.css");
+@import url("gallery/gallery__arrow_right.css");
+@import url("gallery/gallery__img.css");
+@import url("gallery/gallery__item.css");
+@import url("gallery/gallery__name.css");
+
+
+
 
 
 
@@ -34,15 +46,6 @@
 @import url("price/price__notice.css");
 @import url("price/price__text.css");
 
-@import url("portfolio/portfolio.css");
-@import url("portfolio/portfolio__img.css");
-@import url("portfolio/portfolio__item.css");
-@import url("portfolio/portfolio__text.css");
-
-
-@import url("projects/projects.css");
-@import url("projects/projects__item.css");
-@import url("projects/projects__name.css");
 
 
 @import url("dots/dots.css");
@@ -69,7 +72,7 @@
 @import url("common/text.css");
 @import url("common/button.css");
 @import url("common/button_work.css");
-@import url("common/button_portfolio.css");
+@import url("common/button_projects.css");
 @import url("common/open.css");
 @import url("common/close.css");
 @import url("common/container.css");

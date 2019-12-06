@@ -1,0 +1,18 @@
+.projects {
+	/*margin-top: 50px;*/
+	padding: 50px 15px;
+	background-color: #fbfbfb;
+}
+
+@media screen and (min-width: 1024px) {
+	.projects {
+		/*margin-top: 0;*/
+		padding: 40px 40px 102px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.projects {
+		padding: 0 15px 103px;
+	}
+}	

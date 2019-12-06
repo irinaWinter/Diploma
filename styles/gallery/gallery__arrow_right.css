@@ -1,0 +1,4 @@
+.gallery__arrow_right {
+	right: -31px;
+	transform: scale(-1, 1);
+}

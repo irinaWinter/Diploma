@@ -1,16 +1,14 @@
-.button_work {
-	margin-top: 51px;
+.button_projects {
+	margin-top: 47px;
 }
-
-
 @media screen and (min-width: 1024px) {
-	.button_work {
+	.button_projects {
+		margin: 0 auto;
 		margin-top: 95px;
 	}
 }
-
 @media screen and (min-width: 1200px) {
-	.button_work {
+	.button_projects {
 		margin-top: 93px;
 	}
-}
+}	

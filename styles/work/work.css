@@ -10,15 +10,12 @@
 	.work {
 		width: 100%;
 		box-sizing: border-box;
-		padding: 30px 130px;
+		padding: 30px 187px 105px;
 	}
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
 	.work {
-		padding: 30px;
-	}
-	.work:last-child {
-		page-break-before: all;
+		padding: 0 30px 104px;
 	}
 }

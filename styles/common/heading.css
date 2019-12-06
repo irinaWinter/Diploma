@@ -16,3 +16,9 @@
 		text-align: center;
 	}
 }
+@media screen and (min-width: 1200px) {
+	.heading {
+		margin: 89px 0 0 0;
+		font-size: 54.5px;
+	}
+}

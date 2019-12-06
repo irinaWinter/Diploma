@@ -1,0 +1,24 @@
+.gallery {
+	position: relative;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 0 auto;
+	margin-top: 41px;
+	width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+	.gallery {
+		flex-wrap: wrap;
+		margin-top: 100px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.gallery {
+		width: 1170px;
+		flex-wrap: nowrap;
+	}
+}

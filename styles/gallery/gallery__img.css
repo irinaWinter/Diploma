@@ -1,0 +1,19 @@
+.gallery__img {
+	background-size: cover;
+	background-color: grey;
+	height: 252px;
+	align-self: center;
+	/*height: 290px;*/
+}
+
+@media screen and (min-width: 1024px) {
+	.gallery__img {
+		height: 352px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.gallery__img {
+		height: 292px;
+	}
+}

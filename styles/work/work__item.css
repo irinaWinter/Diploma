@@ -14,20 +14,28 @@
 @media screen and (min-width: 1024px) {
 	.work__item {
 		max-width: 270px;
-		margin-top: 86px;
+		margin: 0;
 	}
-	.work__item:nth-child(odd) {
-		margin-left: 125px;
+	.work__item:first-child {
+		margin: 0;
+	}
+	.work__item:nth-last-child(-n+2) {
+		margin-top: 81px;
 	}
 }
 
 
 @media screen and (min-width: 1200px) {
 	.work__item {
-		/*width: */
-		margin: 86px 0 0 0;
+		margin: 0 0 0 30px;
+	}
+	.work__item:nth-last-child(-n+2) {
+		margin-top: 0;
 	}
 	.work__item:nth-child(odd) {
+		margin-left: 30px;
+	}
+	.work__item:first-child {
 		margin-left: 0;
 	}
 }

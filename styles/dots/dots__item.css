@@ -12,3 +12,11 @@
 .dots__item_active, .dots__item:hover {
   background-color: #ff4e2e;
 }
+
+@media screen and (min-width: 1024px) {
+	.dots__item {
+		width: 18px;
+		height: 18px;
+		margin: 0 13px;
+	}
+}

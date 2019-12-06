@@ -1,7 +1,7 @@
 .price__notice {
-	margin: 50px 0 0 0;
+	margin: 33px 0 0 0;
 	padding-left: 15px;
-	text-indent: -13px;
+	text-indent: -14px;
 	color: #fff;
 	font-size: 15px;
 	line-height: 30px;
@@ -11,4 +11,11 @@
 	color: #fff;
 	font-size: 15px;
 	padding-right: 6px;
+}
+
+@media screen and (min-width: 1024px) {
+	.price__notice {
+		font-size: 17px;
+		line-height: 29px;
+	}
 }

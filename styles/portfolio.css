@@ -51,15 +51,25 @@
 @import url("dots/dots.css");
 @import url("dots/dots__item.css");
 
+
 @import url("footer/footer.css");
-@import url("footer/footer__nav.css");
-@import url("footer/footer__ul.css");
-@import url("footer/footer__li.css");
-@import url("footer/footer__li_sn.css");
-@import url("footer/footer__li_contacts.css");
-@import url("footer/footer__li_contacts-number.css");
-@import url("footer/footer__li_contacts-email.css");
-@import url("footer/footer__a.css");
+
+@import url("nav/nav.css");
+@import url("nav/nav__a.css");
+@import url("nav/nav__li.css");
+@import url("nav/nav__ul.css");
+
+
+@import url("contacts/contacts.css");
+@import url("contacts/contacts__a.css");
+@import url("contacts/contacts__li.css");
+@import url("contacts/contacts__li_email.css");
+@import url("contacts/contacts__li_number.css");
+
+@import url("socialNetworks/socialNetworks.css");
+@import url("socialNetworks/socialNetworks__a.css");
+@import url("socialNetworks/socialNetworks__li.css");
+
 
 
 @import url("copyright/copyright.css");
@@ -71,6 +81,7 @@
 @import url("common/heading-me.css");
 @import url("common/text.css");
 @import url("common/button.css");
+@import url("common/button_me.css");
 @import url("common/button_work.css");
 @import url("common/button_projects.css");
 @import url("common/open.css");

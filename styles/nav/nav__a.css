@@ -1,5 +1,5 @@
-.footer__a {
-	/*font-size: 15px;*/
+.nav__a {
 	text-decoration: none;
+	letter-spacing: -0.6px;
 	color: #8993ad;
 }

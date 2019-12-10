@@ -1,9 +1,10 @@
 .button_projects {
+	margin: 0 auto;
 	margin-top: 47px;
 }
 @media screen and (min-width: 1024px) {
 	.button_projects {
-		margin: 0 auto;
+		/*margin: 0 auto;*/
 		margin-top: 95px;
 	}
 }

@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: 0 auto;
 	margin-top: 23px;
 	width: 280px;
 	height: 55px;

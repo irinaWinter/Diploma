@@ -1,0 +1,11 @@
+.contacts__li_email:before {
+	content: "";
+	position: absolute;
+	top: center;
+	left: 0;
+	width: 15px;
+	height: 20px;
+	background-image: url("../../img/email.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}

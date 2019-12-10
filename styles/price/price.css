@@ -1,10 +1,40 @@
 .price {
+	position: relative;
 	padding: 43px 20px;
-	background-image: linear-gradient(#ff3294, #ff895e);
+	background-image: linear-gradient(#ff3294, #ff8f5a);
 }
 
 @media screen and (min-width: 1024px) {
 	.price {
 		padding: 75px 40px 80px;
+		background-image: linear-gradient(10deg, #ff8f5a, #ff3294);
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.price::before {
+		content: "";
+		position: absolute;
+		left: 12.4%;
+		bottom: 16.6%;
+		width: 45px;
+		height: 45px;
+		background-image: url(../../img/2_white.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all 0.5s;
+	}
+	.price::after {
+		content: "";
+		position: absolute;
+		right: 5%;
+		bottom: 14.6%;
+		width: 50px;
+		height: 50px;
+		transform: rotate(-47deg);
+		background-image: url(../../img/3_white.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all 0.5s;
 	}
 }

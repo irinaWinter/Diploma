@@ -1,5 +1,5 @@
 .price__notice {
-	margin: 33px 0 0 0;
+	margin: 31px 0 0 0;
 	padding-left: 15px;
 	text-indent: -14px;
 	color: #fff;
@@ -17,5 +17,33 @@
 	.price__notice {
 		font-size: 17px;
 		line-height: 29px;
+	}
+	.price__notice::after {
+		content: "";
+		display: block;
+		position: absolute;
+		right: 6.4%;
+		bottom: 10%;
+		width: 83px;
+		height: 36px;
+		background-image: url(../../img/4_white.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		transition: all 0.5s;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.price__notice {
+		width: 924px;
+		margin: 0 auto;
+		margin-top: 33px;
+	}
+	.price__notice:before {
+		font-size: 17px;
+		padding-right: 4px;
+	}
+	.price__notice::after {
+		right: 8.95%;
+		bottom: 68%;
 	}
 }

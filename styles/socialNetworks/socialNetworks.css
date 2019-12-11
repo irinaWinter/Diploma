@@ -1,0 +1,11 @@
+.socialNetworks {
+	display: flex;
+	margin: 55px 0 0 0;
+	padding: 0;
+}
+@media screen and (min-width: 1024px) {
+	.socialNetworks {
+		grid-column: 3 / 3;
+		margin-top: 0;
+	}
+}

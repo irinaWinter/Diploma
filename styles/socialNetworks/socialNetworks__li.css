@@ -1,0 +1,7 @@
+.socialNetworks__li {
+	list-style-type: none;
+	margin-left: 24.5px;
+}
+.socialNetworks__li:first-child {
+	margin-left: 0;
+}

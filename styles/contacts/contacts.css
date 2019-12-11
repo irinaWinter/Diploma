@@ -1,4 +1,9 @@
 .contacts {
-	margin: 47px 0 0 0;
+	margin: 42px 0 0 0;
 	padding: 0;
+}
+@media screen and (min-width: 1024px) {
+	.contacts {
+		margin: 0 0 0 0;	
+	}
 }

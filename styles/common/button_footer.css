@@ -1,0 +1,7 @@
+@media screen and (min-width: 1024px) {
+	.button_footer {
+		grid-column: 3 / 3;
+		grid-row: 1 / 1;
+		margin: 0;
+	}
+}

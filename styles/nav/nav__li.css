@@ -5,3 +5,10 @@
 .nav__li:first-child {
 	margin-top: 0;
 }
+@media screen and (min-width: 1024px) {
+	.nav__li {
+		letter-spacing: 0;
+		font-size: 18px;
+		margin-top: 13px;
+	}
+}

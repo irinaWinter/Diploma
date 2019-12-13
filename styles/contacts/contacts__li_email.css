@@ -9,3 +9,11 @@
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+@media screen and (min-width: 1024px) {
+	.contacts__li_email {
+		padding-left: 43px;
+	}
+	.contacts__li_email:before {
+		width: 23px;
+	}
+}

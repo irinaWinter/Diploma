@@ -4,3 +4,10 @@
 	letter-spacing: 0.23px;
 	color: #8993ad;
 }
+@media screen and (min-width: 1024px) {
+	.contacts__a {
+		font-size: 26px;
+		letter-spacing: -0.4px;
+		color: #000;	
+	}
+}

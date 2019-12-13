@@ -7,3 +7,9 @@
 .contacts__li:first-child {
 	margin-top: 0;
 }
+@media screen and (min-width: 1024px) {
+	.contacts__li {
+		margin-top: 29px;
+		padding-left: 37px;	
+	}
+}

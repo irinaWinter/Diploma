@@ -1,4 +1,4 @@
-.gallery__arrow {
+.carousel__arrow {
 	display: none;
 	position: absolute;
 	top: 34.6%;
@@ -12,12 +12,12 @@
 }
 
 @media screen and (min-width: 1024px) {
-	.gallery__arrow {
+	.carousel__arrow {
 		/*display: none;*/
 	}
 }
 @media screen and (min-width: 1200px) {
-	.gallery__arrow {
+	.carousel__arrow {
 		display: block;
 	}
 }

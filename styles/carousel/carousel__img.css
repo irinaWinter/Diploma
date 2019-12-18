@@ -1,4 +1,4 @@
-.gallery__img {
+.carousel__img {
 	background-size: cover;
 	background-color: grey;
 	height: 252px;
@@ -7,13 +7,13 @@
 }
 
 @media screen and (min-width: 1024px) {
-	.gallery__img {
+	.carousel__img {
 		height: 352px;
 	}
 }
 
 @media screen and (min-width: 1200px) {
-	.gallery__img {
+	.carousel__img {
 		height: 292px;
 	}
 }

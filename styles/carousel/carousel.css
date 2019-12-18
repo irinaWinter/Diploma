@@ -1,4 +1,4 @@
-.gallery {
+.carousel {
 	position: relative;
 	display: flex;
 	flex-wrap: nowrap;
@@ -6,18 +6,18 @@
 	align-items: flex-start;
 	margin: 0 auto;
 	margin-top: 41px;
-	width: 100%;
+	max-width: 1170px;
 }
 
 @media screen and (min-width: 1024px) {
-	.gallery {
+	.carousel {
 		flex-wrap: wrap;
 		margin-top: 100px;
 	}
 }
 
 @media screen and (min-width: 1200px) {
-	.gallery {
+	.carousel {
 		width: 1170px;
 		flex-wrap: nowrap;
 	}

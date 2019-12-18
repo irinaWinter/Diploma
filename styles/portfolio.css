@@ -29,13 +29,14 @@
 
 @import url("projects/projects.css");
 
-@import url("gallery/gallery.css");
-@import url("gallery/gallery__arrow.css");
-@import url("gallery/gallery__arrow_left.css");
-@import url("gallery/gallery__arrow_right.css");
-@import url("gallery/gallery__img.css");
-@import url("gallery/gallery__item.css");
-@import url("gallery/gallery__name.css");
+@import url("carousel/carousel.css");
+@import url("carousel/carousel__hider.css");
+@import url("carousel/carousel__arrow.css");
+@import url("carousel/carousel__arrow-left.css");
+@import url("carousel/carousel__arrow-right.css");
+@import url("carousel/carousel__img.css");
+@import url("carousel/carousel__item.css");
+@import url("carousel/carousel__name.css");
 
 
 
@@ -85,6 +86,5 @@
 @import url("common/button_work.css");
 @import url("common/button_projects.css");
 @import url("common/button_footer.css");
-@import url("common/open.css");
 @import url("common/close.css");
 @import url("common/container.css");

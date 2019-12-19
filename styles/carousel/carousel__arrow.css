@@ -1,5 +1,5 @@
 .carousel__arrow {
-	display: none;
+	display: block;
 	position: absolute;
 	top: 34.6%;
 	width: 60px;
@@ -11,13 +11,13 @@
 	cursor: pointer;
 }
 
-@media screen and (min-width: 1024px) {
+/*@media screen and (min-width: 1024px) {
 	.carousel__arrow {
 		/*display: none;*/
-	}
+	/*}/*
 }
-@media screen and (min-width: 1200px) {
+/*@media screen and (min-width: 1200px) {
 	.carousel__arrow {
 		display: block;
 	}
-}
+}*/

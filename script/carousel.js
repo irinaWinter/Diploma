@@ -31,7 +31,7 @@ Carousel.defaults = {
 	speed: 750,     // Скорость анимации (мс)
 	touch: true,    // Прокрутка  прикосновением
 	arrows: true,   // Прокрутка стрелками
-	dots: true      // Индикаторные точки
+	dots: false      // Индикаторные точки
 };
 
 Carousel.prototype.elemPrev = function(num) {

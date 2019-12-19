@@ -1,9 +1,11 @@
 .dots {
+	width: 100%;
+	height: auto;
 	text-align: center;
 	margin-top: 40px;
 }
 
-@media screen and (min-width: 1024px) {
+/*@media screen and (min-width: 1024px) {
 	.dots {
 		margin-top: 99px;
 	}
@@ -13,4 +15,4 @@
 	.dots {
 		display: none;
 	}
-}
+}*/

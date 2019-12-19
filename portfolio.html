@@ -11,7 +11,6 @@
 	<script src="script/copyright__year.js" defer></script>
 <!-- 	<script src="script/portfolio-data.js" defer></script> -->
 	<script src="script/portfolio__item.js" defer></script>
-	<script src="script/carousel.js" defer></script>
 
 </head>
 
@@ -82,33 +81,35 @@
 
 			<div class="carousel">
 				<div class="carousel__hider">
-					<div class="carousel__item">
-						<img class="carousel__img" src="img/p1.jpg">
-						<h3 class="carousel__name">Перечень&nbsp;пособий</h3>
-					</div>
-					<div class="carousel__item">
-						<img class="carousel__img" src="img/p2.jpg">
-						<h3 class="carousel__name">Табло рейсов</h3>
-					</div>
-					<div class="carousel__item">
-						<img class="carousel__img" src="img/p3.jpg">
-						<h3 class="carousel__name">Новостной портал (учебный проект)</h3>
-					</div>					
-					<div class="carousel__item">
-						<img class="carousel__img" src="img/p4.jpg">
-						<h3 class="carousel__name">Новостной портал (учебный проект)</h3>
-					</div>
-					<div class="carousel__item">
-						<img class="carousel__img" src="img/p5.jpg">
-						<h3 class="carousel__name">Новостной портал (учебный проект)</h3>
-					</div>
+					<ul class="carousel__list">
+						<li class="carousel__item">
+							<img class="carousel__img" src="img/p1.jpg">
+							<h3 class="carousel__name">Перечень&nbsp;пособий</h3>
+						</li>
+						<li class="carousel__item">
+							<img class="carousel__img" src="img/p2.jpg">
+							<h3 class="carousel__name">Табло рейсов</h3>
+						</li>
+						<li class="carousel__item">
+							<img class="carousel__img" src="img/p3.jpg">
+							<h3 class="carousel__name">Новостной портал (учебный проект)</h3>
+						</li>					
+						<li class="carousel__item">
+							<img class="carousel__img" src="img/p4.jpg">
+							<h3 class="carousel__name">Новостной портал (учебный проект)</h3>
+						</li>
+						<li class="carousel__item">
+							<img class="carousel__img" src="img/p5.jpg">
+							<h3 class="carousel__name">Новостной портал (учебный проект)</h3>
+						</li>
+					</ul>	
 				</div>	
 				<span class="carousel__arrow carousel__arrow-left"></span>
 				<span class="carousel__arrow carousel__arrow-right"></span>
 			</div>
 
 			<div class="dots">
-				<span class="dots__item dots__item_active"></span>
+				<span class="dots__item"></span>
 				<span class="dots__item"></span>
 				<span class="dots__item"></span>
 			</div>
@@ -151,6 +152,9 @@
 	<footer class="copyright">
 		<p class="copyright__text">&copy; Ирина Коржева, 2019&ndash;<span class="copyright__year"></span></p>
 	</footer>
+
+	<script src="script/carousel.js"></script>
+
 
 </body>
 </html>

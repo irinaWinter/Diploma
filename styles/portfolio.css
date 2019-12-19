@@ -31,6 +31,7 @@
 
 @import url("carousel/carousel.css");
 @import url("carousel/carousel__hider.css");
+@import url("carousel/carousel__list.css");
 @import url("carousel/carousel__arrow.css");
 @import url("carousel/carousel__arrow-left.css");
 @import url("carousel/carousel__arrow-right.css");

@@ -11,13 +11,13 @@
 	cursor: pointer;
 }
 
-/*@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 	.carousel__arrow {
-		/*display: none;*/
-	/*}/*
+		display: none;
+	}
 }
-/*@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 	.carousel__arrow {
 		display: block;
 	}
-}*/
+}

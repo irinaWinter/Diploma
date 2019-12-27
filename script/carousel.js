@@ -60,7 +60,7 @@ Carousel.prototype.elemPrev = function(num) {
 		};
 		this.crslList.style.marginLeft = '-' + this.elemWidth*num + 'px';
 		let compStyle = window.getComputedStyle(this.crslList).marginLeft;
-		this.crslList.style.cssText = 'transition:margin '+this.options.speed+'ms ease;';
+		this.crslList.style.cssText = 'transition:margin '+this.options.speed+'ms linear;';
 		this.crslList.style.marginLeft = '0px';
 		setTimeout(function() {
 			this$.crslList.style.cssText = 'transition:none;'
@@ -86,7 +86,7 @@ Carousel.prototype.elemNext = function(num) {
 	}
 	else {                    // сдвиг влево с циклом
 		let elm, buf, this$ = this;
-		this.crslList.style.cssText = 'transition:margin '+this.options.speed+'ms ease;';
+		this.crslList.style.cssText = 'transition:margin '+this.options.speed+'ms cubic-bezier(0,0,1,1);';
 		this.crslList.style.marginLeft = '-' + this.elemWidth*num + 'px';
 		setTimeout(function() {
 			this$.crslList.style.cssText = 'transition:none;';

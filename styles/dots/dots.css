@@ -5,7 +5,7 @@
 	margin-top: 40px;
 }
 
-/*@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 	.dots {
 		margin-top: 99px;
 	}
@@ -15,4 +15,4 @@
 	.dots {
 		display: none;
 	}
-}*/
+}

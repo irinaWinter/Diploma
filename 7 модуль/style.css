@@ -3,6 +3,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 auto;
+	margin-top: 100px;
 }
 
 .container__item {
@@ -22,7 +23,12 @@
 .container__item:nth-child(-n+3) {
 	margin-top: 0;
 }
-/*
+
 .circle {
-	border-radius: 50%;
-}*/
+	color: #fff;
+	font-weight: bold;
+	font-size: 26px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

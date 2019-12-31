@@ -1,8 +1,5 @@
 var my_obj = document.querySelector('.circle');
-
-function my_alert() {
-	alert('fhg');
-}
+var container = document.querySelector('.container');
 
 function makeASquare(event) {
 	this.style.borderRadius = "0";
@@ -25,17 +22,36 @@ function rotate(event) {
 	this.style = "transform: rotate(" + angle + "deg);";
 	event.preventDefault();
 }
+function getdate() {
+	var date = new Date();
+	var year = date.getFullYear();
+	var month = date.getMonth() + 1;
+	
+	var day = date.getDate();
+	return year + "." + month + '.' + day;
+}
+function showDate() {
+	this.textContent = getdate();
+}
+function discardСhanges() {
+	this.textContent = " ";
+	this.style = " ";
+}
 
 my_obj.addEventListener('mouseover', makeACircle);
 my_obj.addEventListener('mouseout', makeASquare);
 my_obj.addEventListener('click', changeBackground);
 my_obj.addEventListener('contextmenu', rotate);
+my_obj.addEventListener('mouseenter', showDate);
+my_obj.addEventListener('dblclick', discardСhanges);
+
+
 
 // click		ГОТОВО
-// dblcklick
+// dblcklick	ГОТОВО
 // mouseover	ГОТОВО
 // mouseout		ГОТОВО
-// mouseenter
+// mouseenter	ГОТОВО
 // mouseleave
 // mouseup
 // mousedown

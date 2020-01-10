@@ -1,0 +1,10 @@
+@import url("normalize.css");
+
+@import url("price/price.css");
+@import url("price/price__notice.css");
+@import url("price/price__text.css");
+	@import url("price/price_1200/price__notice_1200.css");
+	@import url("price/price_1200/price__text_1200.css");
+	@import url("price/price_1024/price_1024.css");
+	@import url("price/price_1024/price__notice_1024.css");
+	@import url("price/price_1024/price__text_1024.css");

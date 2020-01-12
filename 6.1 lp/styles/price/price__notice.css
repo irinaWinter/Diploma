@@ -1,0 +1,12 @@
+.price__notice {
+	margin: 31px 0 0 0;
+	padding-left: 15px;
+	text-indent: -14px;
+	font-size: 15px;
+	line-height: 30px;
+}
+.price__notice:before {
+	content: "*";
+	font-size: 15px;
+	padding-right: 6px;
+}

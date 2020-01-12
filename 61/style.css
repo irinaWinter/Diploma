@@ -1,0 +1,23 @@
+.container {
+	padding: 20px;
+	width: 200px;
+	height: 300px;
+	background-color: yellowgreen;
+	background-image: url('leaf.jpg');
+	background-size: auto 100%;
+	background-attachment: scroll;
+	-webkit-background-origin: padding-box;
+	background-repeat: no-repeat;
+	background-origin: padding-box;
+	background-clip: padding-box;
+	overflow-y: scroll;
+	/*overflow: hidden;*/
+	border: 5px dashed black;
+}
+
+.text {
+	color: white;
+	font-family: sans-serif;
+	line-height: 150%;
+background: repeating-radial-gradient(circle at 100%, #333, #333 10px, #eee 10px, #eee 20px);
+}

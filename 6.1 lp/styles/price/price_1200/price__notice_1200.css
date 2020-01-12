@@ -2,10 +2,11 @@
 	.price__notice {
 		width: 924px;
 		margin: 0 auto;
-		margin-top: 33px;
+		margin-top: 30px;
 	}
 	.price__notice:before {
 		font-size: 17px;
-		padding-right: 4px;
+		margin-left: -3px;
+		padding-right: 7px;
 	}
 }	

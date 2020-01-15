@@ -1,0 +1,7 @@
+@media screen and (min-width: 1024px) {
+	.price__notice {
+		margin: 30px auto 0;
+		font-size: 18px;
+		line-height: 28px;
+	}
+}

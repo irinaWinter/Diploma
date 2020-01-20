@@ -1,3 +1,7 @@
 .me {
+	padding-top: 72px;
 	background-image: url(../../img/ellipse_320.png);
+	background-repeat: no-repeat;
+	background-position: 39% 113px;
+	text-align: center;
 }

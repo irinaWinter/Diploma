@@ -1,3 +1,12 @@
 @import url("me/me.css");
-@import url("me/me_1024.css");
-@import url("me/me_1200.css");
+@import url("me/me__img.css");
+
+@import url("me/me_1024/me_1024.css");
+@import url("me/me_1024/me__img_1024.css");
+
+@import url("me/me_1200/me_1200.css");
+@import url("me/me_1200/me__img_1200.css");
+
+body, html {
+	margin: 0;
+}

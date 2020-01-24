@@ -11,12 +11,12 @@
 	background-origin: padding-box;
 	background-clip: padding-box;
 	overflow-y: scroll;
-	/*overflow: hidden;*/
+	overflow: hidden;
 	border: 5px dashed black;
 }
 
 .text {
-	color: white;
+	color: #000;
 	font-family: sans-serif;
 	line-height: 150%;
 background: repeating-radial-gradient(circle at 100%, #333, #333 10px, #eee 10px, #eee 20px);
